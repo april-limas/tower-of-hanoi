@@ -1,0 +1,77 @@
+:root {
+    --font: 'Trade Winds', cursive;
+}
+
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('images/d.jpg') center/cover no-repeat;
+    color: white;
+    font-size: xx-large;
+    font-family: 'Bubblegum Sans', cursive;
+    text-shadow: 4px 4px 2px rgb(65, 60, 60);
+    margin: 50px;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: var(--font);
+    text-shadow: 6px 6px 3px rgb(65, 60, 60);
+}
+
+.buttons {
+    width: 14%;
+    height: 82px;
+    background: #e83731;
+    font-family: var(--font);
+    border-radius: 5%;
+    border: 2px solid rgb(230, 221, 221);
+    text-align: center;
+    display: inline-block;
+       
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.fa-play-circle {
+    font-size: 57px;   
+    position: relative;
+    top: 10px;
+    left: 51px;
+}
+
+#button1 p {
+    position: relative;
+    top: -81px;
+    left: -32px;
+    font-size: 34px;
+}
+
+#button2 p {
+    position: relative;
+    top: -72px;
+    left: -33px;
+    
+}
+
+#button1 {
+    position: relative;
+    margin-left: 475px;
+    top: 36px;
+    
+}
+
+#button2 {
+    position: relative;
+    margin-left: 50px;
+    top: 30px;
+}
+
+.fa-home {
+    font-size: 55px;
+    position: relative;
+    top: 13px;
+    left: 53px;
+}

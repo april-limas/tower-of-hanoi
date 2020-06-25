@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font: 'Trade Winds', cursive;
+}
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("images/banner.jpg") center/cover;
+    height: 100vh;
+    color: whitesmoke;
+    text-align: center;
+    font-family: var(--font);
+}
+
+h1 {
+    margin: 29px auto;
+    color: white;
+    font-size: 80px;
+    text-shadow: 6px 6px 3px rgb(65, 60, 60);
+    
+}
+
+#instructions {
+    position: relative;
+    top: -94px;
+    left: 11%;
+    
+}
+
+#start {
+    position: absolute;
+    top: 10%;
+    left: 34%;
+}
+
+.buttons {
+    width: 12%;
+    height: 9%;
+    background: #e83731;
+    display: inline-block;
+    border-radius: 5%;
+    border: 2px solid rgb(230, 221, 221);
+    margin: 100px auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.fa-play-circle {
+    font-size: 55px;   
+    position: relative;
+    top: 10px;
+    left: 46px;
+}
+
+.fa-file-alt {
+    font-size: 48px;
+    position: absolute;
+    top: 15px;
+    left: 121px;
+}
+
+#instructions p {
+    font-size: 28px;
+    line-height: 27px;
+    position: absolute;
+    top: 13px;  
+    left: 11px;
+}
+
+#start p {
+    font-size: 30px;
+    position: relative;
+    top: -38px; 
+    left: -30px;
+}

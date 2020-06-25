@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tower of Hanoi</title>
+    <link rel="stylesheet" href="game.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Ceviche+One&family=Sedgwick+Ave&family=Shojumaru&family=Trade+Winds&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div id="dashboard-a">
+            <h2 class="dash1"><a href="game.html">Restart</a></h2>
+            <h2 class="dash1"><a href="index.html">Home</a></h2>
+            <h2 class="dash1"><a href="instructions.html">Rules</a></h2>
+        </div>  
+        <div id="dashboard-b">
+            <h2 id="moves" class="dash2">Moves</h2>
+            <h2 class="dash2">Timer</h2>
+        </div>
+    </nav>
+    <div id="wrapper">
+        <div id="tower1" class="towers" >
+            
+            <div id="disc4" class="disc" data-width="4" draggable="true"></div>
+            <div id="disc3" class="disc" data-width="3" draggable="true"></div>
+            <div id="disc2" class="disc" data-width="2" draggable="true"></div>
+            <div id="disc1" class="disc" data-width="1" draggable="true" ></div>
+            
+        </div>
+       
+        <div id="tower2" class="towers"></div>
+        
+        <div id="tower3" class="towers"></div>
+        
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>

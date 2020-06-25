@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font: 'Trade Winds', cursive;
+}
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('images/play.jpg') center no-repeat;
+    color: white;
+    background-size: 1500px 950px;
+}
+
+nav {
+    display: column;
+    font-family: var(--font);
+    font-size: x-large;
+    margin: 30px;   
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 4px 4px 2px rgb(65, 60, 60);
+}
+
+nav #dashboard-a h2:hover {
+    border-bottom: 5px solid white;
+}
+
+#dashboard-a {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#dashboard-b {
+    display: flex;
+    justify-content: space-evenly;
+    text-shadow: 4px 4px 2px rgb(65, 60, 60);
+    margin: 20px;
+}
+
+#wrapper {    
+    margin: 105px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.towers {
+    height: 500px;
+    width: 25px;
+    background: rgb(213, 207, 207);
+    border: 2px solid rgb(24, 24, 24); 
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.disc {
+    height: 70px;
+    border: 1px solid rgb(24, 24, 24);
+}
+  
+#disc1 {
+    width: 150px;
+    background-color: #ed3833;
+}
+  
+#disc2 {
+    width: 200px;
+    background-color: #fbd84a;
+}
+  
+#disc3 {
+    width: 250px;
+    background-color: #52b12c;
+}
+  
+#disc4 {
+    width: 300px;
+    background-color: #2045f5;
+}
+
+.grab {
+    cursor: grab;
+}
+
+.grabbing {
+    cursor: none;
+}
+
+.no-drop {
+    cursor: no-drop;
+}
+
+.win {
+    width: 700px;
+    height: 700px;
+    background: linear-gradient(rgb(140, 10, 10, 0.8), rgb(140, 10, 10, 0.8));
+    font-family: var(--font);
+    color: yellow;
+    text-align: center;
+    font-size: 52px;
+    margin: 100px auto;
+    position: absolute;
+    top: -4%;
+    left: 26%;
+    z-index: 2;
+}
+
+.win a {
+    color: white;
+    text-decoration: none;
+    color: yellow;
+}
+
+.win a:hover {
+    border-bottom: 5px solid yellow;
+}
+
+.win div>a {
+    position: relative;
+    top: 100px;
+    line-height: 100px;
+}
+
+.text {
+    margin: 120px auto;
+}
+
