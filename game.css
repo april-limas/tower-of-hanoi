@@ -53,7 +53,7 @@ nav #dashboard-a h2:hover {
 
 .towers {
     height: 500px;
-    width: 25px;
+    width: 100px;
     background: rgb(213, 207, 207);
     border: 2px solid rgb(24, 24, 24); 
     display: flex;
