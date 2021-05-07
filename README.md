@@ -15,8 +15,4 @@ Development Plan:
 
         * Note that when you use appendChild on an element that already has a parent, it is automatically removed from the old parent and added to the new one.
 
-Group members:
-1. April Limas
-2. DJ Drevitch
-
 Play the Tower of Hanoi here: https://april_limas.gitlab.io/hanoi/
