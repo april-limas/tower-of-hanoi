@@ -15,4 +15,3 @@ Development Plan:
 
         * Note that when you use appendChild on an element that already has a parent, it is automatically removed from the old parent and added to the new one.
 
-Play the Tower of Hanoi here: https://april_limas.gitlab.io/hanoi/
